@@ -44,14 +44,14 @@ var scene = (function(){
 		camera.lookAt(new THREE.Vector3(0,0,0));
         scene.add(camera);
 
-        var texture = THREE.ImageUtils.loadTexture( "../texture/parquet.jpg" );
+        var texture = THREE.ImageUtils.loadTexture( "./texture/parquet.jpg" );
 
         texture.wrapS = THREE.RepeatWrapping; 
 		texture.wrapT = THREE.RepeatWrapping;
 
 		texture.repeat.set( 4, 4 );
 
-		var texture2 = THREE.ImageUtils.loadTexture( "../texture/wall.jpg" );
+		var texture2 = THREE.ImageUtils.loadTexture( "./texture/wall.jpg" );
 
         texture2.wrapS = THREE.RepeatWrapping; 
 		texture2.wrapT = THREE.RepeatWrapping;
@@ -491,7 +491,7 @@ var scene = (function(){
 
 		var wall1 = document.querySelector('#wall_1');
 		wall1.addEventListener('click', function(){
-			var txt = THREE.ImageUtils.loadTexture( "../texture/wall1.jpg" );
+			var txt = THREE.ImageUtils.loadTexture( "./texture/wall1.jpg" );
 			txt.wrapS = THREE.RepeatWrapping; 
 			txt.wrapT = THREE.RepeatWrapping;
 
@@ -502,7 +502,7 @@ var scene = (function(){
 
 		var wall2 = document.querySelector('#wall_2');
 		wall2.addEventListener('click', function(){
-			var txt = THREE.ImageUtils.loadTexture( "../texture/wall2.jpg" );
+			var txt = THREE.ImageUtils.loadTexture( "./texture/wall2.jpg" );
 			txt.wrapS = THREE.RepeatWrapping; 
 			txt.wrapT = THREE.RepeatWrapping;
 
@@ -513,7 +513,7 @@ var scene = (function(){
 
 		var floor1 = document.querySelector('#floor_1');
 		floor1.addEventListener('click', function(){
-			var txt = THREE.ImageUtils.loadTexture( "../texture/floor1.jpg" );
+			var txt = THREE.ImageUtils.loadTexture( "./texture/floor1.jpg" );
 			txt.wrapS = THREE.RepeatWrapping; 
 			txt.wrapT = THREE.RepeatWrapping;
 
@@ -523,7 +523,7 @@ var scene = (function(){
 
 		var floor2 = document.querySelector('#floor_2');
 		floor2.addEventListener('click', function(){
-			var txt = THREE.ImageUtils.loadTexture( "../texture/floor2.jpg" );
+			var txt = THREE.ImageUtils.loadTexture( "./texture/floor2.jpg" );
 			txt.wrapS = THREE.RepeatWrapping; 
 			txt.wrapT = THREE.RepeatWrapping;
 
