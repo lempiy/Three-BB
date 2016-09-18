@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>THREE BB</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+    <div id="container"></div>
+    <div class="finds-panel">
+    	<h1 class="finds-title">Finds</h1>
+    	<div class="furniture">
+	    	<div id="find_1" class='find-item'>
+	    		<div class='background-div' style="background-image:url('./img/chair.png')"></div>
+	    		<div class='desc find-name'>Leather Chair</div>
+	    		<div class='desc find-size'>12"1w 1"3h 5"1d</div>
+	    		<div class='desc find-price'>300$</div>
+	    	</div>
+	    	<div id="find_2" class='find-item'>
+	    		<div class='background-div' style="background-image:url('./img/comod.png')"></div>
+	    		<div class='desc find-name'>Wooden Tumb</div>
+	    		<div class='desc find-size'>4"3w 2"3h 4"1d</div>
+	    		<div class='desc find-price'>117$</div>
+	    	</div>
+	    	<div id="find_3" class='find-item'>
+	    		<div class='background-div' style="background-image:url('./img/clock.png')"></div>
+	    		<div class='desc find-name'>Clock</div>
+	    		<div class='desc find-size'>0"5w 0"5h 0"1d</div>
+	    		<div class='desc find-price'>17$</div>
+	    	</div>
+	    	<div id="find_4" class='find-item'>
+	    		<div class='background-div' style="background-image:url('./img/table.png')"></div>
+	    		<div class='desc find-name'>Wooden Table</div>
+	    		<div class='desc find-size'>7"3w 4"3h 5"3d</div>
+	    		<div class='desc find-price'>72$</div>
+	    	</div>
+    	</div>
+    	<h1 class="finds-title">Wallpappers</h1>
+    	<div class="furniture wallpappers">
+	    	<div id="wall_1" class='find-item'>
+		    	<div class='background-div rounded' style="background-image:url('./img/wall1.jpg')"></div>
+		    	<div class='desc find-name'>Summertime</div>
+		    	<div class='desc find-size'>Textile, Papper</div>
+	    	</div>
+	    	<div id="wall_2" class='find-item'>
+	    		<div class='background-div rounded' style="background-image:url('./img/wall2.jpg')"></div>
+	    		<div class='desc find-name'>The Fall</div>
+	    		<div class='desc find-size'>Textile, Papper</div>
+	    	</div>
+    	</div>
+    	<h1 class="finds-title">Floors</h1>
+    	<div class="furniture wallpappers">
+	    	<div id="floor_1" class='find-item'>
+		    	<div class='background-div rounded' style="background-image:url('./img/floor1.jpg')"></div>
+		    	<div class='desc find-name'>Gothical</div>
+		    	<div class='desc find-size'>Grey Rock</div>
+	    	</div>
+	    	<div id="floor_2" class='find-item'>
+	    		<div class='background-div rounded' style="background-image:url('./img/floor2.jpg')"></div>
+	    		<div class='desc find-name'>Imagination</div>
+	    		<div class='desc find-size'>Wide Linoleum</div>
+	    	</div>
+    	</div>
+    </div>
+    <div class="controls-panel">
+    	<div class="furniture">
+	    	<h1 class="controls-title center">Board Builder 3D Demo</h1>
+	    	<div class="selected-find">
+	    		
+	    	</div>
+	    	<div class='legend'>
+	    		<div class="legend-icon blue-icon"></div>
+	    		<div class="legend-label"> - X axis</div>
+	    		<div class="legend-icon green-icon"></div>
+	    		<div class="legend-label"> - Z axis</div>
+	    		<div class="legend-icon red-icon"></div>
+	    		<div class="legend-label"> - Y axis</div>
+	    	</div>
+	    	<h2 class="controls-subtitle">Move find:</h2>	
+	    	<div class="move-container">
+		    	<div class="move-control">
+		    		<button id="z-up" class="control">
+		    			<img class="arrow up" src="./svg/back_green.svg">
+		    		</button>
+		    		<button id="x-up" class="control">
+		    			<img class="arrow left" src="./svg/back.svg">
+		    		</button>
+		    		<button id="z-down" class="control">
+		    			<img class="arrow down" src="./svg/back_green.svg">
+		    		</button>
+		    		<button id="x-down" class="control">
+		    			<img class="arrow right" src="./svg/back.svg">
+		    		</button>
+		    	</div>
+		    	<div class="move-control-y">
+		    		<button id="y-up" class="control-y">
+		    			<img class="arrow y-up" src="./svg/back_red.svg">
+		    		</button>
+		    		<button id="y-down" class="control-y">
+		    			<img class="arrow y-down" src="./svg/back_red.svg">
+		    		</button>
+		    	</div>
+	    	</div>
+	    	<h2 class="controls-subtitle">Rotate find:</h2>
+	    	<div class="move-container rotate-container">
+	    		<button id="x-rotate-up" class="ctr rotate">
+	    			<img class="arrow" src="./svg/reload.svg">
+	    		</button>
+	    		<button id="z-rotate-up" class="ctr rotate">
+	    			<img class="arrow" src="./svg/reload_green.svg">
+	    		</button>
+	    		<button id="y-rotate-up" class="ctr rotate">
+	    			<img class="arrow" src="./svg/reload_red.svg">
+	    		</button>
+	    		<button id="x-rotate-down" class="ctr rotate">
+	    			<img class="arrow rotate-arrow" src="./svg/reload.svg">
+	    		</button>
+	    		<button id="z-rotate-down" class="ctr rotate">
+	    			<img class="arrow rotate-arrow" src="./svg/reload_green.svg">
+	    		</button>
+	    		<button id="y-rotate-down" class="ctr rotate">
+	    			<img class="arrow rotate-arrow" src="./svg/reload_red.svg">
+	    		</button>
+	    	</div>
+	    	<h2 class="controls-subtitle">Selection:</h2>
+	    	<div class="move-container selection-container">
+	    		<button id="cancel-select" class="ctr">
+	    			<img class="arrow" src="./svg/cancel-icon.svg">
+	    		</button>
+	    		<button id="delete-select" class="ctr">
+	    			<img class="arrow" src="./svg/delete-photo.svg">
+	    		</button>
+	    	</div>
+	    	<h2 class="controls-subtitle hint">You can also use keyboard controls.<br>
+	    	See description <a href="#hint" id="hint">here</a>.
+	    	</h2>
+	    	<p class="author-info">Concept-Prototype by <a target="_blank" href="//github.com/lempiy">Anton Lempiy</a>.
+	    	</p>
+    	</div>
+    </div>
+    <div class="overlay"></div>
+    <div class="hint-k">
+    	<a href="#" class="hint-k-close">X</a>
+    	<h1>Keyboard Keys</h1>
+    	<table class="key-hint">
+			<tr>
+				<th>Key</th>
+				<th>Action</th> 
+			</tr>
+			<tr>
+				<td class="key">W</td>
+				<td>Up on X axis</td> 
+			</tr>
+			<tr>
+				<td class="key">S</td>
+				<td>Down on X axis</td> 
+			</tr>
+			<tr>
+				<td class="key">D</td>
+				<td>Up on Z axis</td> 
+			</tr>
+			<tr>
+				<td class="key">A</td>
+				<td>Down on Z axis</td> 
+			</tr>
+			<tr>
+				<td class="key">Q</td>
+				<td>Up on Y axis</td> 
+			</tr>
+			<tr>
+				<td class="key">E</td>
+				<td>Down on Y axis</td> 
+			</tr>
+			<tr>
+				<td class="key">Left - Right</td>
+				<td>Rotate on Y axis</td>
+			</tr>
+			<tr>
+				<td class="key">Up - Down</td>
+				<td>Rotate on X axis</td> 
+			</tr>
+			<tr>
+				<td class="key">Z - X</td>
+				<td>Rotate on Z axis</td> 
+			</tr>
+			<tr>
+				<td class="key">Ctrl/Cmd</td>
+				<td>Hold Ctrl/Cmd for multi find select</td> 
+			</tr>
+			<tr>
+				<td class="key">Esc</td>
+				<td>Cancel find selection</td> 
+			</tr>
+			<tr>
+				<td class="key">Delete</td>
+				<td>Delete selected find from board</td> 
+			</tr>	
+		</table>
+    </div>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/MTLLoader.js"></script>
+    <script src="./js/OBJLoader.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/TrackballControls.js"></script>
+    <script>
+        window.onload = scene.initScene;
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+Model dowloaded from tf3dm.com
+
+========================================================= Wide Clock - Grande Pendule ================================================================
+
+[En] V1.0 (28/12/2015)
+
+Hi and thank you for downloading this model from Jetstorm_477 !
+
+> Model in two formats : .obj ; .stl
+  SolidWorks models (.sldprt / .sldasm) are the original files from which I created the .obj model ;
+  So the .stl format is derived, and colorless.
+  The .sh3d file is editable with the free Sweet Home 3D software, in order to change the color and the texture of different parts of furniture...
+  I recommend you to remove the model from any archive during using, in order to avoid import problems.
+
+  Don't forget to leave me a comment or an e-mail in case of problems or suggestions !
+My e-mail adress : ley1998@live.fr
+
+	Enjoy ! ;)
+
+******************************************************************************************************************************************************
+
+[Fr] V1.0 (28/12/2015)
+
+Boujour et merci d'avoir téléchargé ce modèle de Jetstorm_477 !
+
+> Modèle joint en deux formats : .obj ; .stl
+  Les modèles SolidWorks (.sldprt / .sldasm) sont les fichiers originaux à partir des quels j'ai créé le fichier .obj ;
+  Le modèle .stl est donc un format dérivé, sans couleur.
+  Le fichier .sh3d est modifiable via le logiciel gratuit Sweet Home 3D pour ainsi changer la couleur et texture des différentes parties du meuble...
+  Je vous recommande d'extraire le modèle de toute archive lors de son utilisation pour éviter les problèmes d'import.
+
+  Ne pas hésiter à me laisser un commentaire ou un mail en cas de problème(s) ou de suggestion(s) !
+Mon mail : ley1998@live.fr
+
+	Enjoy ! ;)
+
+=======================================================================================================================================================
