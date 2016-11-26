@@ -1,2 +1,2 @@
 # Three-BB
-[Three-BB Demo](https://www.lempiy.github.io/Three-BB)
+[Three-BB Demo](http://www.lempiy.github.io/Three-BB)
